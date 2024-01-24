@@ -1,0 +1,107 @@
+body{
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+
+}
+
+#header {
+    height: 338px;
+    display: inline-block;
+    width: 100vw;
+}
+
+.logo1 {
+    width: 100%;  
+}
+
+.faixa1{
+    height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+
+.icone{
+    max-width: 23px;
+    position: relative;
+    top: 5px;
+}
+
+.contato{
+    position: relative;
+    top: 12px;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    width: 100vw;
+}
+
+.faixaDiv{
+    height: 15px;
+}
+
+.fundom{
+    width: 100%;
+}
+
+.textop{
+    text-align: center;
+    height: 260px;
+}
+
+.tp{
+    position: relative;
+    bottom: 230px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6em; 
+    color: #F2F2F2; 
+}
+
+.tp2{
+    position: relative;
+    bottom: 240px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em; 
+    color: #F2F2F2; 
+    padding: 10px;  
+}
+
+#carrosel{
+    width: 100vw;
+}
+
+.faixaDiv{
+    width: 100%;
+    height: 30px;
+}
+
+.faixaDiv2{
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+
+.c3{
+    position: relative;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(173, 20, 20);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+img{
+    max-width: 100vw;
+}
+
