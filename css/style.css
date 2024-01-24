@@ -1,24 +1,28 @@
 body{
-    box-sizing: border-box;
-    background-color: #F2F2F2;
-
+  margin: 0;
+  padding: 0;
 }
 
 #header {
-    height: 338px;
-    display: inline-block;
     width: 100vw;
+    text-align: center;
+    /* background-color: rgb(19, 18, 18); */
 }
 
 .logo1 {
-    width: 100%;  
+    width: 60%;
+    margin: 30px auto 0;
+    border-radius: 15px 5px;
 }
 
 .faixa1{
-    height: 80px;
+    width: 70%;
+    height: 85px;
     text-align: center;
-    text-transform: uppercase;
-    color: #0D0D0D;
+    margin: auto;
+    /* text-transform: uppercase; */
+    /* color: #181717; */
+    border-radius: 5px;
 }
 
 .icone{
@@ -30,9 +34,9 @@ body{
 .contato{
     position: relative;
     top: 12px;
-    font-size: 0.8em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    font-size: 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 5, 5);
     font-weight: bold;
 }
 
@@ -42,45 +46,63 @@ a{
 
 .content{
     width: 100vw;
+    margin: auto;
+    text-align: center;
+}
+
+.banner2{
+    width: 95%;
+    border-radius: 10px;
+    padding: 2px;
 }
 
 .faixaDiv{
-    height: 15px;
+    height: 50px;
 }
 
-.fundom{
+/* .fundom{
     width: 100%;
-}
+} */
 
 .textop{
+    width: 95%;
+    margin: auto;
     text-align: center;
-    height: 260px;
+    height: 490px;
+    background-color: rgba(230, 201, 126, 0.4);
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .tp{
-    position: relative;
-    bottom: 260px;
+    /* position: relative; */
+    /* bottom: 300px; */
     font-family: 'Dancing Script', cursive;
-    font-size: 1.6em; 
-    color: #F2F2F2; 
+    font-size: 1.8em; 
+    color: #000000; 
 }
 
 .tp2{
-    position: relative;
+    /* position: relative; */
     bottom: 270px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9em; 
-    color: #F2F2F2; 
-    padding: 30px;  
+    font-size: 1.1em; 
+    color: #0b0b0b; 
 }
 
-#produtos{
+#products{
     width: 100vw;
+    text-align: center;
+}
+
+.pd{
+    text-decoration: none;
 }
 
 .faixaDiv{
     width: 100%;
-    height: 30px;
+    height: 10px;
 }
 
 .faixaDiv2{
@@ -94,37 +116,39 @@ a{
 
 .c3{
     position: relative;
-    top: 50px;
+    top: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     color: rgb(173, 20, 20);
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
-img{
-    width: 100%;
+.ip{
+    text-align: center;
 }
 
 .imgp{
-    text-align: center;
+    width: 95%;
+    border-radius: 5px;
 }
 
 .pd{
     color: black;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 figcaption{
-    background-color: rgba(189, 164, 26, 0.6);
+    background-color:rgba(230, 201, 126, 0.4);
     margin: 3px auto;
     width: 90%;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0 0 15px 15px;
     padding: 8px 0 0 0;
 }
 
 .click{
-    width: 80%;
+    width: 60%;
     text-align: center;
     border-radius: 35px 15px 35px;
     margin: auto;
@@ -140,4 +164,15 @@ figcaption{
     height: 20px;
     position: relative;
     top: 80px;
+}
+
+#produtosg {
+    width: 100vw;
+    text-align: center;
+
+}
+
+.voltar {
+    text-decoration: none;
+    color: black;
 }
