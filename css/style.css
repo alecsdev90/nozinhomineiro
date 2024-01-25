@@ -4,15 +4,36 @@ body{
 }
 
 #header {
-    width: 100vw;
+    width: 60%;
+    margin: auto;
     text-align: center;
-    /* background-color: rgb(19, 18, 18); */
+    margin-bottom: 40px;
 }
 
 .logo1 {
     width: 60%;
     margin: 30px auto 0;
     border-radius: 15px 5px;
+}
+
+.itemMenu{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.itemMenu:hover{
+    background-color: rgba(0, 128, 0,0.9);
+    color: white;
+    text-decoration: none;
+}
+
+
+li{
+    display: inline;
+    margin: 5%;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 5px;
 }
 
 .faixa1{
@@ -177,3 +198,242 @@ figcaption{
     color: black;
 }
 
+@media screen and (max-width: 768px) {
+
+    #header {
+        width: 100vw;
+        text-align: center;
+        /* background-color: rgb(19, 18, 18); */
+    }
+    
+    .logo1 {
+        width: 55%;
+        padding: 0 10px 40px;
+        /* margin: 30px auto 0; */
+        /* border-radius: 15px 5px; */
+        display: inline-block;
+        float: left;
+    }
+
+    .menu{
+        margin: auto;
+        width: 42%;
+        background-color: palegoldenrod;
+        text-align:left;
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+
+
+    }
+
+    .itemMenu{
+        width: 95%;
+        color: green;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-size: 1.5em; color: #fffdd9; */
+
+    }
+
+    .itemMenu:hover{
+        background-color: green;
+        color: white;
+    }
+
+    ul{
+        padding: 15px;
+        /* background-image: url(../img/queijo.png);
+        background-size:cover;
+        border-radius: 5px; */
+    }
+    
+    li{
+        color: white;
+        display: block;
+        margin: 5%;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+
+    .faixa1{
+        width: 95%;
+        height: 85px;
+        text-align: center;
+        margin: auto;
+        background-color: rgba(26, 167, 26, 0.2);
+        border-radius: 1px 15px ;
+        border: 1px solid green;
+        text-transform: uppercase; 
+        /* color: #181717; */
+    }
+    
+    .icone{
+        max-width: 23px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .contato{
+        /* position: relative;
+        top: 12px;  */
+        font-size: 0.7em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(5, 5, 5);
+        font-weight: bold;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .content{
+        width: 100vw;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .banner2{
+        display: none;
+        /* width: 95%;
+        border-radius: 10px;
+        padding: 2px; */
+    }
+    
+    .faixaDiv{
+        height: 50px;
+    }
+    
+    /* .fundom{
+        width: 100%;
+    } */
+    
+    .textop{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        height: 620px;
+        /* background-color: rgba(230, 201, 126, 0.4); */
+        padding: 30px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: 20px;
+    }
+    
+    .tp{
+        /* position: relative; */
+        /* bottom: 300px; */
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.8em; 
+        color: #000000;
+        font-weight: 600; 
+        margin-bottom: 20px;
+    }
+    
+    .tp2{
+        /* position: relative; */
+        bottom: 270px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.1em; 
+        color: #0b0b0b; 
+    }
+    
+    #products{
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .pd{
+        text-decoration: none;
+    }
+    
+    .faixaDiv{
+        width: 100%;
+        height: 10px;
+    }
+    
+    .faixaDiv2{
+        height: 100px;
+        
+    }
+    
+    .c3{
+        color: rgb(4, 94, 4);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.2em;
+        position: relative;
+        bottom: 30px;
+    }
+    
+    .ip{
+        text-align: center;
+    }
+    
+    .imgp{
+        width: 95%;
+        border-radius: 5px;
+    }
+    
+    .pd{
+        color: black;
+        font-size: 1.1em;
+    }
+    
+    figcaption{
+        background-color:rgba(230, 201, 126, 0.4);
+        margin: 3px auto;
+        width: 90%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 15px 15px;
+        padding: 8px 0 0 0;
+    }
+
+    .if{
+        margin: auto;
+        padding: 20px 10px 0;
+        margin-top: 10px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .imgfinal{
+        margin: auto;
+        max-width:100%;
+        border-radius: 5px;
+    }
+    
+    /* .click{
+        width: 60%;
+        text-align: center;
+        border-radius: 35px 15px 35px;
+        border: 1px solid red;
+        margin: auto;
+        color: red;
+        
+    } */
+    
+    
+    .fixarRodape {
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        height: 20px;
+        position: relative;
+        top: 80px;
+    }
+    
+    #produtosg {
+        width: 100vw;
+        text-align: center;
+    
+    }
+    
+    .voltar {
+        text-decoration: none;
+        color: black;
+    }
+
+}
