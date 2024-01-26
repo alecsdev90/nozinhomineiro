@@ -33,7 +33,6 @@ body{
     text-decoration: none;
 }
 
-
 li{
     display: inline;
     margin: 5%;
@@ -48,24 +47,56 @@ li{
 }
 
 .imgfinal{
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 15px;
+    /* grid-template-rows: 400px; 
+    grid-auto-rows: 500px; */ */
+}
+  
+.item {
+    text-align: center;
+    padding: 10px;
+}
+
+figcaption{
+    background-color: rgba(0, 128, 0,0.2); 
+    margin: 0 auto;
+    width: 100%;
+    float: right;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px 5px;
+    padding: 8px 0 0 0;
+}
+
+figcaption:hover{
+    background-color: rgba(137, 209, 137, 0.7); 
+}
+
+.imgp{
+    height: 300px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid black;
 }
 
 .faixa1{
-    width: 40%;
+    width: 60%;
     height: 85px;
     text-align: center;
     margin: auto;
-    /* text-transform: uppercase; */
-    /* color: #181717; */
-    background-color: rgba(43, 137, 29,10);
+    background-color: rgba(43, 137, 29,0.9);
     border-radius: 5px;
-    border: 1px solid grren;
 }
 
 .faixa1:hover{
-  background-color: rgba(43, 137, 29, 0.9);
+  background-color: rgba(43, 137, 29, 0.8);
 }
 
 .icone{
@@ -88,10 +119,6 @@ li{
     text-decoration: none;
 }
 
-/* a{
-    text-decoration: none;
-} */
-
 .content{
     width: 100vw;
     margin: auto;
@@ -104,48 +131,22 @@ li{
     padding: 2px;
 }
 
-.faixaDiv{
-    height: 50px;
-}
-
-/* .fundom{
-    width: 100%;
-} */
-
-.textop{
-    width: 68.5%;
-    margin: auto;
-    text-align: center;
-    /* background-color: rgba(230, 201, 126, 0.4); */
-    padding: 30px;
-    border-radius: 35px;
-    border: 35px solid rgba(0, 0, 0, 0.1);
-}
-
-.tp{
-    /* position: relative; */
-    /* bottom: 300px; */
-    font-family: 'Dancing Script', cursive;
-    font-size: 2em; 
-    color: #000000;
-    margin-bottom: 30px; 
-}
-
 .tp2{
-    /* position: relative; */
     bottom: 270px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1em; 
     color: #0b0b0b; 
 }
 
-#products{
-    width: 100vw;
-    text-align: center;
-}
-
 .pd{
     text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+.pd:hover{
+    text-decoration: none;
+    color: rgb(29, 74, 17);
 }
 
 .faixaDiv{
@@ -154,12 +155,11 @@ li{
 }
 
 .faixaDiv2{
-    height: 90px;
+    height: 60px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-weight: bold;
-
 }
 
 .c3{
@@ -172,48 +172,39 @@ li{
     font-size: 1.3em;
 }
 
-.ip{
+/* .ip{
     text-align: center;
     width: 100vw;
+} */
+
+.faixaDiv{
+    height: 50px;
 }
 
-.imgp{
-    width: 68.5%;
-    border-radius: 5px 5px 0 0;
-    border: 1px solid black;
+.textop{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 95px 5px;
+    border: 35px solid rgba(0, 0, 0, 0.1);
 }
 
-.pd{
-    color: black;
-    font-size: 1.1em;
+.tp{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em; 
+    color: #000000;
+    margin-bottom: 30px; 
 }
 
-.pd:hover{
-    text-decoration: none;
-    color: rgb(29, 74, 17);
-}
-
-figcaption{
-    background-color: rgba(0, 128, 0,0.2); 
-    margin: 0 auto;
-    width: 68.5%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0 0 5px 5px;
-    padding: 8px 0 0 0;
-}
-
-figcaption:hover{
-    background-color: rgba(137, 209, 137, 0.7); 
-}
-.click{
-    width: 60%;
+/* .click{
+    width: 90%;
     text-align: center;
     border-radius: 35px 15px 35px;
     margin: auto;
     position: relative;
     top: 20px;
-}
-
+} */
 
 .fixarRodape {
     bottom: 0;
@@ -222,17 +213,6 @@ figcaption:hover{
     height: 20px;
     position: relative;
     top: 80px;
-}
-
-#produtosg {
-    width: 100vw;
-    text-align: center;
-
-}
-
-.voltar {
-    text-decoration: none;
-    color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -246,8 +226,6 @@ figcaption:hover{
     .logo1 {
         width: 55%;
         padding: 0 10px 40px;
-        /* margin: 30px auto 0; */
-        /* border-radius: 15px 5px; */
         display: inline-block;
         float: left;
     }
@@ -260,18 +238,12 @@ figcaption:hover{
         display: inline-block;
         float: right;
         margin-right: 10px;
-
-
     }
 
     .itemMenu{
         width: 95%;
         color: green;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        /* -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #000;
-        font-size: 1.5em; color: #fffdd9; */
-
     }
 
     .itemMenu:hover{
@@ -281,9 +253,6 @@ figcaption:hover{
 
     ul{
         padding: 15px;
-        /* background-image: url(../img/queijo.png);
-        background-size:cover;
-        border-radius: 5px; */
     }
     
     li{
@@ -303,8 +272,6 @@ figcaption:hover{
         background-color: rgba(43, 137, 29,10);
         border-radius: 1px 15px ;
         border: 1px solid green;
-        /* text-transform: uppercase;  */
-        /* color: #181717; */
     }
     
     .faixa1:hover{
@@ -318,23 +285,43 @@ figcaption:hover{
     }
     
     .contato{
-        /* position: relative;
-        top: 12px;  */
         font-size: 0.7em;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         font-weight: bold;
     }
     
-    a{
-        text-decoration: none;
+    .container {
+        display: block;
+        width: 80%;
     }
-    
-    .content{
-        width: 100vw;
-        margin: auto;
+      
+    .item {
         text-align: center;
     }
+    
+    figcaption{
+        font-size: 0.9em;
+        background-color: rgba(0, 128, 0,0.2); 
+        margin: 0 auto;
+        width: 80%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 5px 5px;
+        padding: 8px 0 0 0;
+    }
+    
+    figcaption:hover{
+        background-color: rgba(137, 209, 137, 0.7); 
+    }
+    
+    .imgp{
+        height: 300px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        border: 1px solid black;
+        margin: 10px 0 0 0;
+    }
+    
     
     .banner2{
         display: none;
@@ -346,22 +333,19 @@ figcaption:hover{
     .faixaDiv{
         height: 50px;
     }
-    
-    /* .fundom{
-        width: 100%;
-    } */
-    
+        
     .textop{
         width: 95%;
         margin: auto;
         text-align: center;
-        height: 620px;
+        height: 600px;
         /* background-color: rgba(230, 201, 126, 0.4); */
         padding: 30px;
         border-radius: 5px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        border: none;
         position: relative;
-        top: 20px;
+        top: 50px;
+        background-color: rgba(184, 235, 184,0.6);
     }
     
     .tp{
@@ -397,7 +381,7 @@ figcaption:hover{
     }
     
     .faixaDiv2{
-        height: 80px;
+        height: 50px;
         
     }
     
