@@ -16,13 +16,19 @@ body{
     border-radius: 15px 5px;
 }
 
+.menu{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: palegoldenrod;
+
+}
 .itemMenu{
     color: green;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
 }
 
 .itemMenu:hover{
-    background-color: rgba(0, 128, 0,0.9);
+    background-color: rgba(0, 128, 0,0.5);
     color: white;
     text-decoration: none;
 }
@@ -31,19 +37,35 @@ body{
 li{
     display: inline;
     margin: 5%;
-    font-size: 70px;
+    font-size: 1.3em;
     font-weight: bold;
     letter-spacing: 5px;
 }
 
+.if{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.imgfinal{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 .faixa1{
-    width: 70%;
+    width: 40%;
     height: 85px;
     text-align: center;
     margin: auto;
     /* text-transform: uppercase; */
     /* color: #181717; */
+    background-color: rgba(43, 137, 29,10);
     border-radius: 5px;
+    border: 1px solid grren;
+}
+
+.faixa1:hover{
+  background-color: rgba(43, 137, 29, 0.9);
 }
 
 .icone{
@@ -55,15 +77,20 @@ li{
 .contato{
     position: relative;
     top: 12px;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(5, 5, 5);
+    color: white;
     font-weight: bold;
 }
 
-a{
+.wpp:hover{
     text-decoration: none;
 }
+
+/* a{
+    text-decoration: none;
+} */
 
 .content{
     width: 100vw;
@@ -86,22 +113,22 @@ a{
 } */
 
 .textop{
-    width: 95%;
+    width: 68.5%;
     margin: auto;
     text-align: center;
-    height: 450px;
-    background-color: rgba(230, 201, 126, 0.4);
+    /* background-color: rgba(230, 201, 126, 0.4); */
     padding: 30px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+    border: 35px solid rgba(0, 0, 0, 0.1);
 }
 
 .tp{
     /* position: relative; */
     /* bottom: 300px; */
     font-family: 'Dancing Script', cursive;
-    font-size: 1.8em; 
-    color: #000000; 
+    font-size: 2em; 
+    color: #000000;
+    margin-bottom: 30px; 
 }
 
 .tp2{
@@ -137,21 +164,23 @@ a{
 
 .c3{
     position: relative;
-    top: 40px;
+    top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: rgb(173, 20, 20);
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .ip{
     text-align: center;
+    width: 100vw;
 }
 
 .imgp{
-    width: 95%;
-    border-radius: 5px;
+    width: 68.5%;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid black;
 }
 
 .pd{
@@ -159,15 +188,23 @@ a{
     font-size: 1.1em;
 }
 
+.pd:hover{
+    text-decoration: none;
+    color: rgb(29, 74, 17);
+}
+
 figcaption{
-    background-color:rgba(230, 201, 126, 0.4);
-    margin: 3px auto;
-    width: 90%;
+    background-color: rgba(0, 128, 0,0.2); 
+    margin: 0 auto;
+    width: 68.5%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 5px 5px;
     padding: 8px 0 0 0;
 }
 
+figcaption:hover{
+    background-color: rgba(137, 209, 137, 0.7); 
+}
 .click{
     width: 60%;
     text-align: center;
@@ -238,7 +275,7 @@ figcaption{
     }
 
     .itemMenu:hover{
-        background-color: green;
+        background-color: rgba(0, 128, 0,0.5);
         color: white;
     }
 
@@ -259,15 +296,19 @@ figcaption{
     }
 
     .faixa1{
-        width: 95%;
+        width: 80%;
         height: 85px;
         text-align: center;
         margin: auto;
-        background-color: rgba(26, 167, 26, 0.2);
+        background-color: rgba(43, 137, 29,10);
         border-radius: 1px 15px ;
         border: 1px solid green;
-        text-transform: uppercase; 
+        /* text-transform: uppercase;  */
         /* color: #181717; */
+    }
+    
+    .faixa1:hover{
+      background-color: rgba(43, 137, 29, 0.9);
     }
     
     .icone{
@@ -281,7 +322,7 @@ figcaption{
         top: 12px;  */
         font-size: 0.7em;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(5, 5, 5);
+        color: white;
         font-weight: bold;
     }
     
@@ -356,16 +397,17 @@ figcaption{
     }
     
     .faixaDiv2{
-        height: 100px;
+        height: 80px;
         
     }
     
     .c3{
         color: rgb(4, 94, 4);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.2em;
-        position: relative;
-        bottom: 30px;
+        font-size: 1.1em;
+        margin-top: 10px;
+        /* position: relative; */
+        /* bottom: 20px; */
     }
     
     .ip{
@@ -374,7 +416,7 @@ figcaption{
     
     .imgp{
         width: 95%;
-        border-radius: 5px;
+        border-radius: 5px 5px 0 0;
     }
     
     .pd{
@@ -383,9 +425,9 @@ figcaption{
     }
     
     figcaption{
-        background-color:rgba(230, 201, 126, 0.4);
-        margin: 3px auto;
-        width: 90%;
+        background-color: rgba(0, 128, 0,0.2);
+        margin: 0 auto;
+        width: 95%;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 0 0 15px 15px;
         padding: 8px 0 0 0;
